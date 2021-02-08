@@ -1,3 +1,126 @@
+/*Main CSS*/
 
-  
-  
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+input {
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  color: #464646;
+}
+
+input[type="submit"] {
+  font-size: 15px;
+  width: 150px;
+  border-width: 0px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.home_buttons {
+  text-align: center;
+}
+
+.home_buttons > input[type="submit"]:hover {
+  background-color: rgb(247, 247, 247);
+  cursor: pointer;
+}
+
+.header,
+.header-nav,
+.header-advanced {
+  display: flex;
+}
+
+.header a,
+.header-nav a,
+.header-advanced a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.header-nav {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.search .search-field {
+  margin: 20px;
+  border-radius: 30px;
+  border: 1px solid #d6d5d5;
+}
+
+.search .search-field input {
+  border: none;
+  border-radius: 30px;
+  width: 30em;
+}
+
+/*Advanced Google Search*/
+
+.header-advanced {
+  background-color: #f1efef;
+  height: 60px;
+  padding: 10px;
+}
+
+.header-advanced img {
+  height: 40px;
+}
+
+.advanced_head {
+  margin: 40px 55px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #df3b30;
+}
+
+input.button {
+  background-color: rgb(35, 132, 228);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px solid #044a8b;
+  margin-left: 45rem;
+}
+
+.advanced-container {
+  margin: 45px 60px;
+  width: 60%;
+}
+
+.advanced-container label {
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.advanced-container .advanced-group {
+  display: flex;
+  margin: 15px 10px;
+  text-align: center;
+  height: 30px;
+}
+
+.advanced-container .advanced-group label {
+  font-size: 15px;
+}
+.advanced-container .advanced-group input[type="text"] {
+  font-size: 15px;
+  color: black;
+}
